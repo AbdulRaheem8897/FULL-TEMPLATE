@@ -1,0 +1,341 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  height: 0px;
+}
+
+header {
+  background-image: url(./pexelsphoto3761118.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.header_content {
+  position: absolute;
+  left: 80px;
+  top: 290px;
+}
+
+.header_content h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.header_content input {
+  font-size: 20px;
+  color: white;
+  width: 250px;
+  height: 40px;
+}
+
+.header_content button {
+  height: 40px;
+  width: 100px;
+  background-color: #f1c50e;
+  color: white;
+  font-size: 20px;
+}
+
+.second_header {
+  background-color: #f1c50e;
+  height: 90vh;
+}
+
+.header2_content img {
+  height: 500px;
+  position: absolute;
+  left: 750px;
+  top: 654px;
+}
+
+.second_header .text_content {
+  position: absolute;
+  left: 100px;
+  top: 750px;
+}
+
+.text_content h1 {
+  font-size: 40px;
+}
+
+.text_content p {
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.thirdheader {
+  display: flex;
+}
+
+.thirdheader .one {
+  height: 350px;
+  width: 300px;
+  background-color: red;
+}
+
+.thirdheader .two {
+  height: 350px;
+  width: 300px;
+  background-color: #f1c50e;
+}
+.thirdheader .three {
+  height: 350px;
+  width: 300px;
+  background-color: #292d33;
+}
+.thirdheader .four {
+  height: 350px;
+  width: 300px;
+  background-color: #555c66;
+}
+
+section h1 {
+  font-size: 60px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+section h2 {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+section p {
+  padding-top: 10px;
+  font-size: 19px;
+  padding-left: 15px;
+}
+
+.thirdheader .two {
+  color: black;
+}
+
+.thirdheader .one {
+  color: white;
+}
+
+.thirdheader .three {
+  color: white;
+}
+.thirdheader .four {
+  color: white;
+}
+
+.section4 {
+  display: flex;
+}
+.section4 .div1 {
+  height: 700px;
+  background-color: #f1c50e;
+  width: 280px;
+}
+
+.section4 .div2 {
+  height: 700px;
+  background-color: #292d33;
+  width: 1200px;
+}
+
+.section4 .images {
+  display: flex;
+}
+.images img {
+  position: relative;
+  bottom: 600px;
+  left: 100px;
+  height: 350px;
+  width: 300px;
+  padding: 20px;
+}
+
+.images_seciton2 {
+  display: flex;
+}
+
+.images_seciton2 img {
+  position: relative;
+  bottom: 620px;
+  left: 100px;
+  height: 350px;
+  width: 300px;
+  padding: 20px;
+}
+
+.section5 {
+  background-color: #f1c50e;
+  height: 100vh;
+  width: 1129px;
+  display: flex;
+  position: relative;
+  bottom: 600px;
+
+  padding: 100px;
+}
+
+.section5 .div3 img {
+  position: relative;
+  left: 45px;
+  bottom: 60px;
+}
+.section5 .div2 img {
+  position: relative;
+  left: 20px;
+  bottom: 60px;
+  height: 600px;
+}
+.section5 .div1 {
+  position: relative;
+
+  width: 500px;
+  height: 100px;
+}
+.section5 .div1 h1 {
+  font-size: 40px;
+}
+
+.section5 .div1 p {
+  font-size: 19px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.section6 {
+  height: 90vh;
+  width: 1129px;
+  display: flex;
+  position: relative;
+  bottom: 600px;
+
+  padding: 100px;
+  background-color: #292d33;
+}
+
+.section6 .div1 {
+  height: 300px;
+  width: 600px;
+  background-color: red;
+  position: relative;
+  left: 250px;
+}
+
+.section6 .div1 img {
+  height: 500px;
+  position: relative;
+  left: 150px;
+  bottom: 50px;
+}
+
+.section6 .div3 {
+  text-align: center;
+  color: white;
+}
+.section6 .div3 p {
+  font-size: 20px;
+  padding-top: 10px;
+  line-height: 30px;
+}
+
+.section7 {
+  width: 1129px;
+  display: flex;
+  position: relative;
+  bottom: 600px;
+
+  background-color: red;
+  padding: 100px;
+  text-align: center;
+}
+
+.section7 .div1 {
+  position: relative;
+  left: 400px;
+  bottom: 50px;
+}
+
+.section7 .div1 h1 {
+  font-size: 40px;
+  color: white;
+}
+.section7 .div1 img {
+  height: 30px;
+  width: 50px;
+  padding-top: 20px;
+}
+
+.section8 {
+  background-color: #292d33;
+  height: 60vh;
+  width: 1129px;
+  display: flex;
+  position: relative;
+  bottom: 600px;
+  padding: 100px;
+  color: white;
+}
+
+.section8 .div2 img {
+  height: 30px;
+  width: 50px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.section8 .div1 {
+  position: relative;
+  left: 60px;
+}
+
+.section8 .div1 h1 {
+  font-size: 40px;
+}
+
+.section8 .div1 p {
+  font-size: 20px;
+  padding-top: 30px;
+}
+.section8 .div2 {
+  position: relative;
+  top: 200px;
+  right: 220px;
+}
+.section8 .div2 h1 {
+  font-size: 40px;
+}
+
+.section8 .div2 h3 {
+  padding-top: 30px;
+}
+
+.section8 .div3 {
+  height: 90vh;
+  width: 300px;
+  background-color: #f1c50e;
+  position: relative;
+  bottom: 100px;
+  right: 100px;
+}
+
+.section8 .div4 {
+  position: relative;
+  left: 150px;
+  top: 100px;
+}
+
+.section8 .div4 h1 {
+  font-size: 40px;
+}
+
+.section8 input {
+  height: 40px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+textarea {
+  margin-top: 20px;
+}
